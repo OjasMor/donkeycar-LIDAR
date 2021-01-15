@@ -1,9 +1,6 @@
-# donkeycar: a python self driving library
+# donkeycar: Now with LIDAR
 
-[![Build Status](https://travis-ci.org/autorope/donkeycar.svg?branch=dev)](https://travis-ci.org/autorope/donkeycar)
-[![CodeCov](https://codecov.io/gh/autoropoe/donkeycar/branch/dev/graph/badge.svg)](https://codecov.io/gh/autorope/donkeycar/branch/dev)
-[![PyPI version](https://badge.fury.io/py/donkeycar.svg)](https://badge.fury.io/py/donkeycar)
-[![Py versions](https://img.shields.io/pypi/pyversions/donkeycar.svg)](https://img.shields.io/pypi/pyversions/donkeycar.svg)
+This repository contains additions to the standard Donkey libraries to support RPLIDAR.
 
 Donkeycar is minimalist and modular self driving library for Python. It is
 developed for hobbyists and students with a focus on allowing fast experimentation and easy
@@ -30,6 +27,11 @@ After building a Donkey2 you can turn on your car and go to http://localhost:888
 
 ### Modify your cars behavior.
 The donkey car is controlled by running a sequence of events
+
+### Adding the RPLDIAR
+RPLIDAR is a reletively cheap LIDAR unit that can be purchased from many online stores.
+For this example, I have used the $99 RPLIDAR A1.
+
 
 ```python
 #Define a vehicle to take and record pictures 10 times per second.
