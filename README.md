@@ -1,8 +1,13 @@
 # donkeycar: Now with LIDAR
 
+![donkeycar](./docs/assets/331_Ojas_Mor_Still_Autonomous_Car_2020-07-21.png)
+
 ![donkeycar](./docs/assets/Hnet-image.gif)
 
 This repository contains additions to the standard Donkey libraries to support RPLIDAR.
+
+
+
 
 Donkeycar is minimalist and modular self driving library for Python. It is
 developed for hobbyists and students with a focus on allowing fast experimentation and easy
