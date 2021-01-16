@@ -4,10 +4,7 @@
 
 ![donkeycar](./docs/assets/Hnet-image.gif)
 
-This repository contains additions to the standard Donkey libraries to support RPLIDAR.
-
-
-
+#### This repository contains additions to the standard Donkey libraries to support RPLIDAR.
 
 Donkeycar is minimalist and modular self driving library for Python. It is
 developed for hobbyists and students with a focus on allowing fast experimentation and easy
@@ -37,7 +34,9 @@ The donkey car is controlled by running a sequence of events
 
 ### Adding the RPLDIAR
 RPLIDAR is a reletively cheap LIDAR unit that can be purchased from many online stores.
-For this example, I have used the $99 RPLIDAR A1.
+For this example, I have used the $99 RPLIDAR A1. I have also 3D printed a mount for the LIDAR unit.
+
+#### rplidar_ws contains the LIDAR related code.
 
 
 ```python
